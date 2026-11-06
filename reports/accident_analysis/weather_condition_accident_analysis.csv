@@ -1,0 +1,6 @@
+weather_condition,total_records,accident_records,total_accidents,accident_rate_percent
+Fog,1248,44,44,3.526
+Rain,6959,241,248,3.463
+Clear,132715,1098,1104,0.827
+Cloudy,29926,228,230,0.762
+Overcast,5853,41,41,0.7
