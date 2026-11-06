@@ -59,16 +59,20 @@ FlowCast/
 │
 ├── models/
 │
-├── notebooks/
-│
-├── report/
-│
 ├── reports/
+│   ├── accident_analysis/
+│   └── traffic_recommendations.csv
 │
 ├── src/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── simulate_traffic_sensors.py
+│   ├── weather_service.py
+│   └── other analysis and training scripts
 │
-├── tests/
-│
+├── .gitattributes
+├── .gitignore
+├── README.md
 └── requirements.txt
 ```
 
@@ -100,6 +104,7 @@ Travel-time predictions are expressed in the dataset's units because the origina
 
 - Python 3.13 or a compatible Python version.
 - pip package manager.
+- Git and Git LFS for downloading the complete repository and large model files.
 
 ### Step 1: Clone the Repository
 
@@ -107,8 +112,6 @@ Travel-time predictions are expressed in the dataset's units because the origina
 git clone https://github.com/danaboinavarshini-2005/FlowCast.git
 cd FlowCast
 ```
-
-Replace the placeholder with the actual repository URL.
 
 ### Step 2: Create a Virtual Environment
 
@@ -151,6 +154,7 @@ The simulator generates updated traffic readings for the dashboard.
 FlowCast uses the Open-Meteo API to retrieve current weather information.
 
 Weather details include:
+
 - Temperature
 - Humidity
 - Rainfall
@@ -181,3 +185,7 @@ Internet access is required for retrieving current weather information.
 FlowCast demonstrates how machine learning, traffic sensor analytics, weather information, and interactive dashboards can be combined to support intelligent traffic monitoring and prediction.
 
 The platform provides a foundation for proactive traffic management and can be further enhanced through real-world sensor integration and improved predictive models.
+
+---
+
+**GitHub Repository:** https://github.com/danaboinavarshini-2005/FlowCast
